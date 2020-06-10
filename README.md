@@ -1,7 +1,3 @@
-# Unslugify
-
-Unslugify your text
-
 # Install
 
 `npm i unslugify`
