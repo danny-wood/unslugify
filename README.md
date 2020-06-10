@@ -2,18 +2,14 @@
 
 Unslugify your text
 
-# Installation
+# Install
 
 `npm i unslugify`
 
-Then...
+# Use
 
+```javascript
+import { unslugify } from "unslugify";
+
+const result = unslugify("my-example-slug");
 ```
-import { unslugify } from 'unslugify';
-
-const result = unslugify('my-example-slug');
-```
-
-## Options
-
-TODO
