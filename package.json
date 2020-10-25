@@ -1,6 +1,6 @@
 {
   "name": "unslugify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unslugify your text",
   "main": "index.js",
   "scripts": {
