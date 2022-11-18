@@ -1,9 +1,9 @@
 # Install
-
-`npm i unslugify`
+```bash
+$ npm i unslugify
+```
 
 # Use
-
 ```javascript
 import { unslugify } from "unslugify";
 

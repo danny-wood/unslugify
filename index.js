@@ -1,8 +1,12 @@
-function unslugify(slug) {
-  const result = slug.replace(/\-/g, " ");
-  return result.replace(/\w\S*/g, function (txt) {
-    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-  });
-}
+/**
+ * Unslugifies a slugified string.
+ *
+ * @param {string} slug slugified string.
+ * @returns {string} un-slugified string.
+ */
+const unslugify = (slug) => slug.replace(/\-/g, " ")
+  .replace(/\w\S*/g,
+  (text) => text.charAt(0).toUpperCase() + text.slice(1).toLowerCase()
+);
 
-module.exports.unslugify = unslugify;
+export default unslugify;
