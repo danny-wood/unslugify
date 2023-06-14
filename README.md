@@ -5,7 +5,7 @@
 # Use
 
 ```javascript
-import { unslugify } from "unslugify";
+import unslugify from "unslugify";
 
 const result = unslugify("my-example-slug");
 
